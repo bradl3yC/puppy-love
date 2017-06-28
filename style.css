@@ -1,0 +1,53 @@
+html {
+  background-image: url("img/bg.jpg");
+  padding: .5em 5em 3em 5em;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: white;
+  padding: 1em;
+  border-color: #ffd24a;
+  border-style: solid;
+  padding: 0;
+}
+#site_header {
+  background-color: #ff8523;
+  padding: 1em 1em 2em 1em;
+}
+
+#logo img{
+  margin-bottom: 10px;
+}
+
+#site_header nav a{
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  border: solid white;
+  border-width: 1px;
+  border-radius: 5px;
+
+}
+
+#page_content {
+  padding: 1em 1em 1em 1em;
+}
+
+#page_content section {
+  
+}
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
