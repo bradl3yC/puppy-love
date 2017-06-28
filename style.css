@@ -17,17 +17,20 @@ body {
 }
 
 #logo img{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #site_header nav a{
   color: white;
-  padding: 4px;
+  padding: .5em 2em .5em 2em;
   text-decoration: none;
   border: solid white;
   border-width: 1px;
   border-radius: 5px;
+}
 
+#page_content a {
+    color: #1fabe5;
 }
 
 #page_content {
@@ -35,8 +38,23 @@ body {
 }
 
 #page_content section {
-  
+  border-bottom: solid #eee;
 }
+#page_content section h1{
+    color: #1fabe5;
+}
+#page_content section h2{
+    color: #1fabe5;
+}
+#page_content section h3{
+    color: #1fabe5;
+}
+
+#page_content section ul{
+    font-weight: bold;
+}
+
+
 /*
 font info:
     family - Helvetica, Arial, sans-serif
